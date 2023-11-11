@@ -28,20 +28,21 @@ body{
     flex-direction: column;
     display: flex;
     align-items: center;
-    border-radius: 24px;
-    padding: 25px;
-    width: 25%;
+    border-radius: 14px;
+    padding: 15px;
+    width: 20%;
 }
 
 .container > img{
-    border-radius: 24px;
+    border-radius: 14px;
+    width: 100%;
 }
 
 .container > .header{
     font-weight: 900;
     font-family: "Outfit";
     text-align: center;
-    font-size: 48px;
+    font-size: 1.75rem;
     margin: none;
 }
 
@@ -50,5 +51,5 @@ body{
     font-family: "Outfit";
     color: var(--clr-blue-gray);
     text-align: center;
-    font-size: 34px;
+    font-size: 1.25rem;
 }
